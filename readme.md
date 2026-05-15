@@ -112,3 +112,43 @@ Detailed Markdown table for test case with columns: ID, Summary, Pre-conditions,
 
 Use technical, precise language (e.g., "DOM Locators," "HTTP 400," "POST Payload"). Avoid generic descriptions. Format for direct Jira import.
 
+
+## **Given Prompt for Creating Play wright Test Case :**
+
+Convert the provided manual test cases into highly accurate, reusable, and production-ready [Playwright / Selenium / Cypress] automation code using industry-standard test design and coding practices.
+
+Instruction:
+
+Page Object Model (POM) for separation of locators, actions, and test logic.
+DRY and SOLID principles for maintainable and reusable code.
+AAA Pattern (Arrange, Act, Assert) for clear test structure.
+Given–When–Then (BDD style) for readable and business-aligned scenarios.
+Data-Driven Testing using external JSON/CSV/YAML files.
+Reusable Components for common UI actions and validations.
+Explicit Waits and robust synchronization to avoid flaky tests.
+Single Responsibility Principle for each class and method.
+Meaningful Assertions mapped to every expected result.
+Fail-Fast Design with clear error messages and automatic screenshots, logs, videos, and traces.
+Cross-Browser and Parallel Execution.
+CI/CD Ready design.
+Clean Code Standards with descriptive names and proper documentation.
+
+
+Deliverables:
+
+Framework folder structure
+Page Object classes
+Reusable utility/helper methods
+Data-driven automated test scripts
+Test data and configuration files
+Reporting setup (e.g., Allure Report or HTML reports)
+CI/CD pipeline examples
+execution instructions
+
+Input:
+
+Manual Test Cases: [Paste your manual test cases here]
+
+Expected Output:
+Generate enterprise-grade automation code that is accurate, modular, reusable, and aligned with industry-standard automation and software engineering practices.
+
