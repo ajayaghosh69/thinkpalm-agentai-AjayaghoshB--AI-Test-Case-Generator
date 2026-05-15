@@ -81,11 +81,11 @@ Upon clicking "Register" with valid data, the user should be redirected to the "
 #### 
 
 
-**Role :** Senior QA Automation \& Security Lead.
+Role :Senior QA Automation \& Security Lead.
 
-**Task :** Conduct a comprehensive 360-degree test analysis for the User Story: "**\[INSERT USER STORY HERE]**".
+Task :Conduct a comprehensive 360-degree test analysis for the User Story: "**\[INSERT USER STORY HERE]**".
 
-**Output Structure :** Provide a detailed Markdown table with the following columns
+Output Structure : Provide a detailed Markdown table with the following columns
 
 
 Provide a detailed Markdown table with the following columns:
