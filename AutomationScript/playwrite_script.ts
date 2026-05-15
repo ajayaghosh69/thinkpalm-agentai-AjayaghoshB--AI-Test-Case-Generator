@@ -1,7 +1,7 @@
 import { test, expect, Page, Locator } from '@playwright/test';
 
 /**
- * PAGE OBJECT MODEL: RegisterPage
+ * PAGE OBJECT MODEL: RegisterPage Selected Test case Only 
  * Encapsulates all selectors and actions for the ParaBank Registration Page.
  */
 class RegisterPage {
