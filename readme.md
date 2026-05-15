@@ -12,15 +12,25 @@ The registration process is the first step for a user to interact with the ParaB
 The registration form must contain the following fields:
 
 **First Name :Text,Required**
+
 **Last Name  :Text,Required**
+
 **Address    :Text/Numeric,Required**
+
 **City       :Text,Required**
+
 **State      :Text,Required**
+
 **Zip        :Code:Numeric,Required**
+
 **Phone      : Numeric,Required**
+
 **SSN        :Numeric,Required**
+
 **Username   :Text,Unique \& Required**
+
 **Password   :Masked,Required**
+
 **C.Password :Masked,Required (Must match Password)**
 
 **Mandatory Field Validation**:
@@ -51,9 +61,13 @@ Detailed Markdown table for test case with columns: ID, Summary, Pre-conditions,
 **Testing Mandate:**
 
 **Happy Path:** E2E flow and successful DB state persistence.
+
 **Negative:** Boundary Value Analysis (BVA) and Equivalence Partitioning (EP) for all input fields.
+
 **edge Cases:** Null payloads, session timeouts, and extreme character limits.
+
 **UI/UX:** Element states (hover/focus), responsiveness, and CSS consistency.
+
 **Security:** Input sanitization (XSS/SQLi), sensitive data masking, and AuthZ/AuthC validation.
 
 **Constraint:**
@@ -69,29 +83,48 @@ Convert the provided manual test cases into highly accurate, reusable, and produ
 Instruction:
 
 Page Object Model (POM) for separation of locators, actions, and test logic.
+
 DRY and SOLID principles for maintainable and reusable code.
+
 AAA Pattern (Arrange, Act, Assert) for clear test structure.
+
 Given–When–Then (BDD style) for readable and business-aligned scenarios.
+
 Data-Driven Testing using external JSON/CSV/YAML files.
+
 Reusable Components for common UI actions and validations.
+
 Explicit Waits and robust synchronization to avoid flaky tests.
+
 Single Responsibility Principle for each class and method.
+
 Meaningful Assertions mapped to every expected result.
+
 Fail-Fast Design with clear error messages and automatic screenshots, logs, videos, and traces.
+
 Cross-Browser and Parallel Execution.
+
 CI/CD Ready design.
+
 Clean Code Standards with descriptive names and proper documentation.
 
 
 Deliverables:
 
 Framework folder structure
+
 Page Object classes
+
 Reusable utility/helper methods
+
 Data-driven automated test scripts
+
 Test data and configuration files
+
 Reporting setup (e.g., Allure Report or HTML reports)
+
 CI/CD pipeline examples
+
 execution instructions
 
 Input:
